@@ -25,40 +25,44 @@
     <!-- name section start -->
     <section id="name">
       <div class="container mt-20">
-        <form action="">
-          <div class="row">
-            <div class="col-md-4 input">
-              <label for="firstname">First Name</label>
-              <br />
-              <input
-                type="text"
-                id="firstname"
-                name="firstname"
-                class="form-control"
-              /><br /><br />
-            </div>
-            <div class="col-md-4 input">
-              <label for="middlename">Middle Name</label>
-              <br />
-              <input
-                type="text"
-                id="middlename"
-                name="middlename"
-                class="form-control"
-              /><br /><br />
-            </div>
-            <div class="col-md-4 input">
-              <label for="lastname">Last Name</label>
-              <br />
-              <input
-                type="text"
-                id="lastname"
-                name="lastname"
-                class="form-control"
-              /><br /><br />
-            </div>
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <form action="">
+              <div class="row">
+                <div class="col-md-4 input">
+                  <label for="firstname">First Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    class="form-control"
+                  /><br /><br />
+                </div>
+                <div class="col-md-4 input">
+                  <label for="middlename">Middle Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    id="middlename"
+                    name="middlename"
+                    class="form-control"
+                  /><br /><br />
+                </div>
+                <div class="col-md-4 input">
+                  <label for="lastname">Last Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    class="form-control"
+                  /><br /><br />
+                </div>
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
     </section>
     <!-- name section end -->
@@ -66,11 +70,15 @@
     <!-- Description section start -->
     <section id="description">
       <div class="container">
-        <div class="description">
-          <h2>Profile Highlights/ Description</h2>
-          <form action="">
-            <textarea id="descriptionSms" type="text"></textarea>
-          </form>
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <div class="description">
+              <h2>Profile Highlights/ Description</h2>
+              <form action="">
+                <textarea id="descriptionSms" type="text"></textarea>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -79,37 +87,41 @@
     <!-- Education section start -->
     <section id="education">
       <div class="container">
-        <h2>Education</h2>
-        <div class="item">
-          <h3 class="mb-30">Education</h3>
-          <div class="singleItem d-flex align-items-center mb-50">
-            <div class="singleItemImg">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent borderBottom">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>2016-2017</p>
-            </div>
-            <div class="educationsicons">
-              <button><i class="fas fa-plus"></i></button>
-              <button><i class="fas fa-pencil-alt"></i></button>
-            </div>
-          </div>
-          <div class="singleItem d-flex align-items-center">
-            <div class="singleItemImg">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>2016-2017</p>
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <h2>Education</h2>
+            <div class="item">
+              <h3 class="mb-30">Education</h3>
+              <div class="singleItem d-flex align-items-center mb-50">
+                <div class="singleItemImg">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div class="singleItemContent borderBottom">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>2016-2017</p>
+                </div>
+                <div class="educationsicons">
+                  <button><i class="fas fa-plus"></i></button>
+                  <button><i class="fas fa-pencil-alt"></i></button>
+                </div>
+              </div>
+              <div class="singleItem d-flex align-items-center">
+                <div class="singleItemImg">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div class="singleItemContent">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>2016-2017</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -120,52 +132,68 @@
     <!-- Certifications section end -->
     <section id="certifications">
       <div class="container mt-50">
-        <h2>Professional Certifications</h2>
-        <div class="item">
-          <h3 class="mb-30">Licenses & certifications</h3>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent borderBottom">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>udemy</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <a href="">See credential</a>
-            </div>
-            <div class="educationsicons">
-              <button><i class="fas fa-plus"></i></button>
-              <button><i class="fas fa-pencil-alt"></i></button>
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <h2>Professional Certifications</h2>
+            <div class="item">
+              <h3 class="mb-30">Licenses & certifications</h3>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div class="singleItemContent borderBottom">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>udemy</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <a href="">See credential</a>
+                </div>
+                <div class="educationsicons">
+                  <button><i class="fas fa-plus"></i></button>
+                  <button><i class="fas fa-pencil-alt"></i></button>
+                </div>
+              </div>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div class="singleItemContent borderBottomwithouticons">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>udemy</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <a href="">See credential</a>
+                </div>
+              </div>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div class="singleItemContent">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>udemy</p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                  <a href="">See credential</a>
+                </div>
+              </div>
+              <a id="certificationsMore" href=""
+                >See more<i class="fas fa-angle-down"></i
+              ></a>
             </div>
           </div>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent borderBottomwithouticons">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>udemy</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <a href="">See credential</a>
-            </div>
-          </div>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>udemy</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              <a href="">See credential</a>
-            </div>
-          </div>
-          <a id="certificationsMore" href=""
-            >See more<i class="fas fa-angle-down"></i
-          ></a>
         </div>
       </div>
     </section>
@@ -174,121 +202,131 @@
     <!-- Work Experience section end -->
     <section id="experience">
       <div class="container mt-30">
-        <h2>Work Experience</h2>
-        <div class="item experienceItem">
-          <h3 class="mb-30">Experience</h3>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent experienceItemContent borderBottom">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-            </div>
-            <div class="educationsicons">
-              <button><i class="fas fa-plus"></i></button>
-              <button><i class="fas fa-pencil-alt"></i></button>
-            </div>
-          </div>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent experienceItemContent borderBottom">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-              </ul>
-            </div>
-            <div class="experienceSeemore">
-              <a href="">...See more</a>
-            </div>
-          </div>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent experienceItemContent borderBottom">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-              </ul>
-            </div>
-            <div class="experienceSeemore">
-              <a href="">...See more</a>
-            </div>
-          </div>
-          <div class="singleItem d-flex mb-50">
-            <div class="singleItemImg mt-8">
-              <img src="./images/img.png" alt="" />
-            </div>
-            <div class="singleItemContent experienceItemContent">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
-                alias.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-              </ul>
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <h2>Work Experience</h2>
+            <div class="item experienceItem">
+              <h3 class="mb-30">Experience</h3>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div
+                  class="singleItemContent experienceItemContent borderBottom"
+                >
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                </div>
+                <div class="educationsicons">
+                  <button><i class="fas fa-plus"></i></button>
+                  <button><i class="fas fa-pencil-alt"></i></button>
+                </div>
+              </div>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div
+                  class="singleItemContent experienceItemContent borderBottom"
+                >
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                  </ul>
+                </div>
+                <div class="experienceSeemore">
+                  <a href="">...See more</a>
+                </div>
+              </div>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div
+                  class="singleItemContent experienceItemContent borderBottom"
+                >
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                  </ul>
+                </div>
+                <div class="experienceSeemore">
+                  <a href="">...See more</a>
+                </div>
+              </div>
+              <div class="singleItem d-flex mb-50">
+                <div class="singleItemImg mt-8">
+                  <img src="./images/img.png" alt="" />
+                </div>
+                <div class="singleItemContent experienceItemContent">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing.</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nam, alias.
+                  </p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -299,33 +337,31 @@
     <!-- Project Experience section start-->
     <section id="Project">
       <div class="container">
-        <h3>Project Details - They can be multiple -</h3>
-       <div class="projectItem">
-        <h4  class="grayLight">Paragraph - Short Answer - Pressiong Enter gives bullet points</h4>
-       </div>
-        <div class="projectItem">
-          <h4>Tech Stack of the Project</h4>
-          <h4 class="grayLight">
-            Paragraph - Short Answer - Pressiong Enter gives bullet points
-          </h4>
-        </div>
-        <div class="projectItem">
-          <h4>Tech Stack of the Project</h4>
-          <h4 class="grayLight">
-            Paragraph - Short Answer - Pressiong Enter gives bullet points
-          </h4>
-        </div>
-        <div class="projectItem">
-          <h4>Tech Stack of the Project</h4>
-          <h4 class="grayLight">
-            Paragraph - Short Answer - Pressiong Enter gives bullet points
-          </h4>
-        </div>
-        <div class="projectItem">
-          <h4>Tech Stack of the Project</h4>
-          <h4 class="grayLight">
-            Paragraph - Short Answer - Pressiong Enter gives bullet points
-          </h4>
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <form action="">
+              <div class="projectItem">
+                <h3>Project Details - They can be multiple -</h3>
+                <input type="text">
+              </div>
+              <div class="projectItem">
+                <h4>Tech Stack of the Project</h4>
+                <input type="text">
+              </div>
+              <div class="projectItem">
+                <h4>Tech Stack of the Project</h4>
+                <input type="text">
+              </div>
+              <div class="projectItem">
+                <h4>Tech Stack of the Project</h4>
+                <input type="text">
+              </div>
+              <div class="projectItem">
+                <h4>Tech Stack of the Project</h4>
+                <input type="text">
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>
